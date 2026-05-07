@@ -144,7 +144,7 @@ form.addEventListener("submit", async (e) => {
                 "Inscrição enviada com sucesso!"
             );
 
-            const numeroWhats = "5585998568223";
+            const numeroWhats = "5585920001533";
 
             const mensagem = `
 🚀 NOVA INSCRIÇÃO - CHAOSCIENCE
