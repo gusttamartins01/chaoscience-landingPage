@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chaoscience</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+
+            <div class="logo">
+                <a href="#home">
+                    <img src="./assets/logologo.png" alt="Logo Chaoscience">
+                </a>
+            </div>
+
+            <nav class="nav-area" id="mobileMenu">
+
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#project">Benefícios</a></li>
+                    <li><a href="#form">Contato</a></li>
+                </ul>
+
+                <button>
+                    <a href="#">Entrar na lista</a>
+                </button>
+
+            </nav>
+
+            <!-- TOGGLE BTN -->
+
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="home-container" id="home">
+            <div class="home-grid">
+                <div class="hero-text">
+                    <h1>Você não controla lesões. Você gerencia riscos.</h1>
+                    <p>A maioria decide com média e feeling. ChaoScience é para quem pensa
+                        <br>
+                        em cenários,
+                        probabilidade e
+                        contexto.
+                    </p>
+                </div>
+                <div class="btn-hero">
+                    <button>Quero entrar na lista de espera!</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="platform-container">
+            <div class="platform-content">
+                <div class="platform-text">
+                    <h2>Sistema técnico de grenciamento de riscos</h2>
+                </div>
+
+                <div class="platform-img">
+                    <img src="./assets/logoPlataforma.png" alt="Foto da plataforma">
+                </div>
+
+                <div class="platform-text">
+                    <p>Para você que precisa calcular risco, visualizar cenários e decidir com base em probabilidade</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-container">
+            <div class="profile-content">
+                <div class="profile-grid">
+                    <div class="profile-text">
+                        <div class="title-area">
+                            <div class="img-chao">
+                                <img src="./assets/logo-chao.png" alt="logo">
+                            </div>
+                            <h2>Pra quem é o sistema?</h2>
+                        </div>
+                        <p>
+                            Para quem calcula cenários, não só registra dados e sabe que o mesmo estímulo pode gerar
+                            respostas completamente diferentes.
+                        </p>
+                        <button>
+                            <a href="#">Entrar na lista de espera</a>
+                        </button>
+                    </div>
+                    <div class="profile-img">
+                        <img src="./assets/image.png" alt="teste">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-container">
+            <h2>O que você vai ter na versão 2.0?</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="product-text">
+                        <h3>Analisa o dado dentro do contexto do atleta</h3>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="product-text">
+                        <h3>Calcula probabilidade antes de decidir</h3>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <div class="product-text">
+                        <h3>Ajuste com base no cenário calculado</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-container">
+            <div class="contact-content">
+                <h2>Garanta seu acesso à versão 2.0</h2>
+                <p>Preencha os dados abaixo e nossa equipe entrará em contato.</p>
+
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="telefone">Telefone (WhatsApp)</label>
+                            <input type="tel" id="telefone" placeholder="(00) 00000-0000" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="profissao">Profissão / Cargo</label>
+                        <select id="profissao" required>
+                            <option value="" disabled selected>Selecione sua profissão</option>
+                            <option value="atleta">Atleta</option>
+                            <option value="treinador">Treinador / Coach</option>
+                            <option value="analista">Analista de Desempenho</option>
+                            <option value="gestor">Gestor Esportivo</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        Quero me inscrever <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="./assets/logologo.png" alt="">
+                </div>
+                <p>Elevando o desempenho esportivo através de dados e inteligência de cenário.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre a v2.0</a></li>
+                    <li><a href="#">Benefícios</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Todos os direitos reservados. Desenvolvido para Alta Performance.</p>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

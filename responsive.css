@@ -1,0 +1,112 @@
+@media (max-width: 1024px) {
+    .platform-container, 
+    .platform-content .platform-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-container .profile-content .profile-grid {
+        gap: 40px;
+    }
+
+    .profile-container .profile-content .profile-grid .profile-text h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header .header-container {
+        padding: 10px 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    header .header-container .nav-area {
+        display: none; 
+    }
+
+    .home-container .hero-text h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .home-container .hero-text p {
+        font-size: 18px;
+    }
+
+   
+    .platform-container .platform-content .platform-img {
+        display: none; 
+    }
+
+    .platform-container .platform-content .platform-text h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .profile-container .profile-content .profile-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .profile-container .profile-content .profile-grid .profile-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-container .profile-content .profile-grid .profile-img {
+        display: none;
+    }
+
+    .product-container .product-grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .contact-form .input-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    header .header-container .logo img {
+        width: 110px;
+    }
+
+    .home-container .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .btn-hero button {
+        padding: 15px 30px;
+        width: 100%;
+    }
+
+    .contact-content h2 {
+        font-size: 28px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-brand, .footer-links {
+        min-width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+    
+    hr {
+        width: 90% !important;
+    }
+}
