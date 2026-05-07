@@ -217,6 +217,12 @@ header {
                 transform: translateY(-5px);
             }
 
+            a {
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
         }
 
     }
@@ -835,4 +841,27 @@ select:focus {
         padding: 30px 20px;
     }
 
+}
+
+.toast {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #16a34a;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateX(120%);
+    transition: 0.4s;
+    z-index: 9999;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(0);
 }
