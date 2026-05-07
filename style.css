@@ -274,6 +274,7 @@ header {
 
 
 .profile-container {
+    height: 100vh;
     width: 100%;
     padding: 120px 20px;
     background-image:
